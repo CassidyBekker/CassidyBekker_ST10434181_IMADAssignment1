@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyIMADPr1</string>
+    <string name="button">Generate History</string>
+    <string name="buttonOne">Clear</string>
+    <string name="TextView">Please enter your Age:</string>
+    <string name="TextViewTwo">Walking with the past!</string>
+
+</resources>
