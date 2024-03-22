@@ -34,8 +34,12 @@ class MainActivity : AppCompatActivity() {
             // Check if the edAge input is a valid integer
             if (text != null) {
                 // Check if the age falls within range
-                if (text in 20..29) {
+                if (text in 20..24) {
                     // If the age is in range, send answer message to the response box
+                    response.text = "23 - Selena Quintanilla\n " +
+                            "Selena was tragically shot at the age of just 23, in 1995. Selena was a legendary icon in the music industry specialising in the Tejano genre. By 1995, Selena was a superstar, managed by her beloved father. Not only was she a musician but she also started a " +
+                            "clothing and jewelry line which her fans obsessed over."
+                } else if (text in 25..29) {
                     response.text = "25 - Tupac Shakur\n " +
                             // Using the n to ensure the names are on a separate line to the rest of the info.
                             // Also Shakur is spelt correctly.
@@ -43,13 +47,21 @@ class MainActivity : AppCompatActivity() {
                             "2Pac was an American Rapper and actor, having sold over 75 million records worldwide, making him one of the best-selling music artists of all time." +
                             "Shakur even made it into the Rock and Roll Hall of Fame in his first year of eligibility.\n" +
                             "2Pac was and still is a massive inspiration among youth and to this day still manages to make an impact on all those who comes across him. "
-                } else if (text in 30..39) {
+                } else if (text in 30..34) {
+                    response.text = "33 - Nipsey Hustle\n" +
+                            "Nipsey passed away at the age of 33 in 2019 due to a fatal shooting. Not only was Nipsey a rapper but he also founded his own record label," +
+                            "clothing store and a company centered around giving back to his community. Before his death, he was planning on founding a sports agency. "
+                } else if (text in 35..39) {
                     response.text = "36 - Princess Diana\n" +
                             "Diana, Princess of Wales, tragically died in a car accident at the age of just 36 years old in 1997.\n" +
                             "Born Diana Frances Spencer, was a member of the British Royal family having married, then, Prince Charles III and" +
                             "mother to Prince William and Harry. Diana never ceased to continuously wear her heart on her sleeve through her activism, kindness and charity work." +
                             "To this day, Diana is still one of the greatest icons and the people's favourite Princess."
-                } else if (text in 40..49) {
+                } else if (text in 40..44) {
+                    response.text = "44 - Marvin Gaye\n" +
+                            "Marvin was tragically shot by his own father at the age of 44 during an argument between the two." +
+                            "Marvin was a Motown Singer who sold millions of albums during is time. "
+                } else if (text in 45..49) {
                     response.text = "48 - Whitney Houston\n" +
                             "Known as 'the Voice', Whitney tragically died due to an accidental drowning influenced by substance abuse, at the age of 48 in 2012.\n" +
                             "With over 220 million records sold worldwide, Houston is regarded as one of the greatest singers in the history of music as well as one of the best-selling artists of all time." +
