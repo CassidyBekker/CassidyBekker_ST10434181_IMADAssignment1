@@ -1,5 +1,7 @@
 # CassidyBekker_ST10434181_IMADAssignment1
 IMAD Assignment 1 - Android History Application
+
+
 Steps:
 1 - Download My History App
 2 - Once downloaded, Open up the application 
